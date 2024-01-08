@@ -18,8 +18,6 @@ python main.py
 
 ## Modules
 
-## Modules
-
 - `threading`: This module is used to run downloads in separate threads.
 - `PySimpleGUI`: This module is used to create the GUI. It provides a simple and easy-to-use method for creating windows, buttons, text fields, and other GUI elements.
 - `yt-dlp`: This is a command-line program to download videos from YouTube and other video sites. It's used in the `YouTubeDownloader` class to handle the actual downloading of content.
