@@ -38,6 +38,12 @@ The GUI consists of the following elements:
 
 A `YouTubeDownloader` object is created to handle the downloads. The specific methods of this class are not detailed in this script.
 
+## GUI
+
+Here's what the GUI looks like:
+
+![GUI Image](gui.png)
+
 ## Downloading
 
 When a download button is clicked, the corresponding download method from the `YouTubeDownloader` class is called with the URL from the text field as an argument. The download is run in a separate thread.
@@ -45,3 +51,6 @@ When a download button is clicked, the corresponding download method from the `Y
 ## Event Loop
 
 The script enters an event loop where it waits for events from the GUI. If the window is closed, the loop is broken and the script ends.
+
+
+
