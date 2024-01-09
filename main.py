@@ -8,7 +8,7 @@ def main():
     layout = [
         [sg.Text('URL'), sg.Input(key='-URL-', size=(115, 1))],  # Input field for the URL
         # Buttons for each download method
-        [sg.Button('Download Video'), sg.Button('Download Audio'), sg.Button('Download Playlist'), sg.Button('Download All Playlists'), sg.Button('Download Playlist as MP3'), sg.Button('Download All Playlists as MP3')],
+        [sg.Button('Download Video'), sg.Button('Download as MP3'), sg.Button('Download Playlist'), sg.Button('Download All Playlists'), sg.Button('Download Playlist as MP3'), sg.Button('Download All Playlists as MP3')],
         [sg.Output(size=(120, 20))]  # Output element to display the output of the yt-dlp command from stdout and stderr
     ]
 
