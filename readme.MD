@@ -2,6 +2,10 @@
 
 This script provides a graphical user interface (GUI) for downloading videos, audio, and playlists from YouTube.
 
+## Prerequisites
+
+Before installing the required Python modules, make sure you have `python-tk` installed on your system as it's necessary for the `tkinter` module. If you're using `brew` on macOS, you can install Python with Tk support using the command `brew install python-tk`. Remember to replace `python-tk` with your Python version in the command.
+
 ## Installation
 
 Before running `main.py`, you need to install the required Python modules. These modules are listed in the `requirements.txt` file. You can install all of them by running the following command in your terminal:
